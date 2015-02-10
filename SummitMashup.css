@@ -1,0 +1,103 @@
+.page {
+	display: inline-block;
+/*	width: 1800px;*/
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+/*	padding-left: 33px;*/
+/*	padding-right: 33px;*/
+	border: 1px solid lightgrey;
+}
+
+.third {
+	display: inline-block;
+	width: 33%;
+	height: 100%;
+}
+
+.thirdHigh {
+	display: inline-block;
+	width: 100%;
+	height: 32%;
+}
+
+.full {
+	display: inline-block;
+	width: 100%;
+	height: 99%;
+}
+
+.half {
+	display: inline-block;
+	width: 49.5%;
+	height: 49.5%;
+}
+
+.halfHigh {
+	display: inline-block;
+	width: 100%;
+	height: 49.5%;
+}
+
+#cursor {
+    position: absolute;
+    z-index: 1000;
+}
+
+#cursorX {
+    background: red;
+    position: absolute;
+    left:  -50px;
+    top:   -2px;
+    width:  100px;
+    height: 4px;
+}
+
+#cursorY {
+    background: red;
+    position: absolute;
+    left:  -2px;
+    top:   -51px;
+    width:  4px;
+    height: 100px;
+}
+
+#cursorLY {
+    background: blue;
+    position: absolute;
+    left:  -4px;
+    top:   0px;
+    width:  4px;
+    height: 100px;
+}
+
+#cursorRY {
+    background: red;
+    position: absolute;
+    left:   4px;
+    top:   0px;
+    width:  4px;
+    height: 100px;
+}
+
+#cursorBall {
+    background: blue;
+    position: absolute;
+    left:  -10px;
+    top:   0px;
+    width:  10px;
+    height: 10px;
+    border: 10px solid;
+    border-radius: 10px;
+}
+
+#cursorBallGreen {
+    background: green;
+    position: absolute;
+    left:  -10px;
+    top:   0px;
+    width:  10px;
+    height: 10px;
+    border: 10px solid;
+    border-radius: 10px;
+}

@@ -1,0 +1,12 @@
+{
+    "type": "mashup",
+    "name": "GestureMashupDemo",
+    "allowPosition": true,
+    "cubes": [],
+    "lists": [],
+    "appMode": "ONE",
+    "appdata": {
+        "qDocName": "Gestural Device Demo App.qvf",
+        "qDocId": "Gestural Device Demo App.qvf"
+    }
+}
