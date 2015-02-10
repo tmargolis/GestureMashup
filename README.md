@@ -24,4 +24,6 @@ Gesture Mashup Demo
 ![Visualization](https://github.com/tmargolis/GestureMashup/blob/master/documentation/GestureDemoSlides/Slide28.JPG)
 
 ####Qlik Engine
+test over
 ![Visualization](https://github.com/tmargolis/GestureMashup/blob/master/documentation/GestureDemoSlides/Slide29.JPG)
+test under
