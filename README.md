@@ -1,6 +1,7 @@
 Gesture Mashup Demo
 ===================
 *Created by Todd Margolis, Qlik Partner Engineering (2014)*
+
 Qlik Sense mashup to control high resolution visualizations via gestural control.
 
 ####Gesture platform architecture
@@ -27,6 +28,7 @@ I created my own Myo handler object to manage Myo functions. Once I've created a
 This Leap object manages hand tracking and gesture recognition from the Leap Motion Controller. Most of the logic is contained in the Leap.loop frame() function where I track one or two hands as well as look for gestures. Hand tracking sends data each frame to other parts of the application, while gestures send discreet events. 
 
 ![Famo.us](https://github.com/tmargolis/GestureMashup/blob/master/documentation/GestureDemoSlides/Slide26.JPG)
+Famo.us is a newish web visualization library optimized for manipulating a lot of html elements in 2D or 3D. Rather than structuring all of your html elements in a traditional hierarchical manner where each child element is positioned relative to it's parent, Famo.us positions each element via CSS 3D transformations so that the DOM appears flattened (all elements are siblings to each other).
 
 ![Publisher](https://github.com/tmargolis/GestureMashup/blob/master/documentation/GestureDemoSlides/Slide27.JPG)
 
