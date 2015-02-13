@@ -5,6 +5,14 @@ Gesture Mashup Demo
 ####Gesture platform architecture
 
 ![Architecture](https://github.com/tmargolis/GestureMashup/blob/master/documentation/GestureDemoSlides/Slide22.JPG)
+This mashup makes extensive use of the following 7 modules:
+ - Require.js to load modules
+ - Myo.js for gesture recognition and arm tracking
+ - Leap and leap-plugins for gesture recognition and hand tracking
+ - Famo.us for managing the overall 3D visualization 
+ - Publisher for event handling
+ - Promises for serializing function calls
+ - Qlik Engine for data loading and selection handling
 
 ![Requirejs](https://github.com/tmargolis/GestureMashup/blob/master/documentation/GestureDemoSlides/Slide23.JPG)
 
